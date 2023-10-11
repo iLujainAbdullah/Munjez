@@ -7,16 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		37A2DFE42AD5BDF1008C6540 /* FinalPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A2DFE32AD5BDF1008C6540 /* FinalPage.swift */; };
 		37CCE0132AD3F49600B7AE4B /* MunjezApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37CCE0122AD3F49600B7AE4B /* MunjezApp.swift */; };
-		37CCE0152AD3F49600B7AE4B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37CCE0142AD3F49600B7AE4B /* ContentView.swift */; };
 		37CCE0172AD3F49700B7AE4B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37CCE0162AD3F49700B7AE4B /* Assets.xcassets */; };
 		37CCE01A2AD3F49700B7AE4B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37CCE0192AD3F49700B7AE4B /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		37A2DFE32AD5BDF1008C6540 /* FinalPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalPage.swift; sourceTree = "<group>"; };
 		37CCE00F2AD3F49600B7AE4B /* Munjez.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Munjez.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		37CCE0122AD3F49600B7AE4B /* MunjezApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MunjezApp.swift; sourceTree = "<group>"; };
-		37CCE0142AD3F49600B7AE4B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		37CCE0162AD3F49700B7AE4B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		37CCE0192AD3F49700B7AE4B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -51,8 +51,8 @@
 		37CCE0112AD3F49600B7AE4B /* Munjez */ = {
 			isa = PBXGroup;
 			children = (
+				37A2DFE32AD5BDF1008C6540 /* FinalPage.swift */,
 				37CCE0122AD3F49600B7AE4B /* MunjezApp.swift */,
-				37CCE0142AD3F49600B7AE4B /* ContentView.swift */,
 				37CCE0162AD3F49700B7AE4B /* Assets.xcassets */,
 				37CCE0182AD3F49700B7AE4B /* Preview Content */,
 			);
@@ -137,7 +137,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				37CCE0152AD3F49600B7AE4B /* ContentView.swift in Sources */,
+				37A2DFE42AD5BDF1008C6540 /* FinalPage.swift in Sources */,
 				37CCE0132AD3F49600B7AE4B /* MunjezApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
