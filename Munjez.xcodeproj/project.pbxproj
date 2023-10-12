@@ -17,6 +17,8 @@
 		F0970F922AD7DC0E00E9277D /* Selectbutton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0970F912AD7DC0E00E9277D /* Selectbutton.swift */; };
 		F0970F942AD7DC5300E9277D /* choosePets.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0970F932AD7DC5300E9277D /* choosePets.swift */; };
 		F0970F962AD7DC8000E9277D /* Selectbutton2.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0970F952AD7DC8000E9277D /* Selectbutton2.swift */; };
+		F0970F9A2AD7FE3A00E9277D /* SelectTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0970F992AD7FE3A00E9277D /* SelectTask.swift */; };
+		F0970F9C2AD7FE9D00E9277D /* SelectButton3.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0970F9B2AD7FE9D00E9277D /* SelectButton3.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +33,8 @@
 		F0970F912AD7DC0E00E9277D /* Selectbutton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Selectbutton.swift; sourceTree = "<group>"; };
 		F0970F932AD7DC5300E9277D /* choosePets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = choosePets.swift; sourceTree = "<group>"; };
 		F0970F952AD7DC8000E9277D /* Selectbutton2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Selectbutton2.swift; sourceTree = "<group>"; };
+		F0970F992AD7FE3A00E9277D /* SelectTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectTask.swift; sourceTree = "<group>"; };
+		F0970F9B2AD7FE9D00E9277D /* SelectButton3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectButton3.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,9 +69,11 @@
 			children = (
 				F0970F8F2AD7DB9800E9277D /* personalPage.swift */,
 				F0970F912AD7DC0E00E9277D /* Selectbutton.swift */,
-				A34F00472AD7DE7100C01CF6 /* tasks.swift */,
 				F0970F932AD7DC5300E9277D /* choosePets.swift */,
 				F0970F952AD7DC8000E9277D /* Selectbutton2.swift */,
+				F0970F992AD7FE3A00E9277D /* SelectTask.swift */,
+				F0970F9B2AD7FE9D00E9277D /* SelectButton3.swift */,
+				A34F00472AD7DE7100C01CF6 /* tasks.swift */,
 				37A2DFE32AD5BDF1008C6540 /* FinalPage.swift */,
 				37E0420D2AD6D2D000A53CC2 /* clap.mp3 */,
 				37CCE0122AD3F49600B7AE4B /* MunjezApp.swift */,
@@ -158,10 +164,12 @@
 			files = (
 				F0970F942AD7DC5300E9277D /* choosePets.swift in Sources */,
 				F0970F902AD7DB9800E9277D /* personalPage.swift in Sources */,
+				F0970F9C2AD7FE9D00E9277D /* SelectButton3.swift in Sources */,
 				F0970F962AD7DC8000E9277D /* Selectbutton2.swift in Sources */,
 				F0970F922AD7DC0E00E9277D /* Selectbutton.swift in Sources */,
 				37A2DFE42AD5BDF1008C6540 /* FinalPage.swift in Sources */,
 				A34F00482AD7DE7100C01CF6 /* tasks.swift in Sources */,
+				F0970F9A2AD7FE3A00E9277D /* SelectTask.swift in Sources */,
 				37CCE0132AD3F49600B7AE4B /* MunjezApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
