@@ -12,6 +12,10 @@
 		37CCE0172AD3F49700B7AE4B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37CCE0162AD3F49700B7AE4B /* Assets.xcassets */; };
 		37CCE01A2AD3F49700B7AE4B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37CCE0192AD3F49700B7AE4B /* Preview Assets.xcassets */; };
 		37E0420E2AD6D2D000A53CC2 /* clap.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 37E0420D2AD6D2D000A53CC2 /* clap.mp3 */; };
+		F0970F902AD7DB9800E9277D /* personalPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0970F8F2AD7DB9800E9277D /* personalPage.swift */; };
+		F0970F922AD7DC0E00E9277D /* Selectbutton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0970F912AD7DC0E00E9277D /* Selectbutton.swift */; };
+		F0970F942AD7DC5300E9277D /* choosePets.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0970F932AD7DC5300E9277D /* choosePets.swift */; };
+		F0970F962AD7DC8000E9277D /* Selectbutton2.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0970F952AD7DC8000E9277D /* Selectbutton2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +25,10 @@
 		37CCE0162AD3F49700B7AE4B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		37CCE0192AD3F49700B7AE4B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		37E0420D2AD6D2D000A53CC2 /* clap.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = clap.mp3; path = ../../../Downloads/clap.mp3; sourceTree = "<group>"; };
+		F0970F8F2AD7DB9800E9277D /* personalPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = personalPage.swift; sourceTree = "<group>"; };
+		F0970F912AD7DC0E00E9277D /* Selectbutton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Selectbutton.swift; sourceTree = "<group>"; };
+		F0970F932AD7DC5300E9277D /* choosePets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = choosePets.swift; sourceTree = "<group>"; };
+		F0970F952AD7DC8000E9277D /* Selectbutton2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Selectbutton2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +61,10 @@
 		37CCE0112AD3F49600B7AE4B /* Munjez */ = {
 			isa = PBXGroup;
 			children = (
+				F0970F8F2AD7DB9800E9277D /* personalPage.swift */,
+				F0970F912AD7DC0E00E9277D /* Selectbutton.swift */,
+				F0970F932AD7DC5300E9277D /* choosePets.swift */,
+				F0970F952AD7DC8000E9277D /* Selectbutton2.swift */,
 				37A2DFE32AD5BDF1008C6540 /* FinalPage.swift */,
 				37E0420D2AD6D2D000A53CC2 /* clap.mp3 */,
 				37CCE0122AD3F49600B7AE4B /* MunjezApp.swift */,
@@ -141,6 +153,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F0970F942AD7DC5300E9277D /* choosePets.swift in Sources */,
+				F0970F902AD7DB9800E9277D /* personalPage.swift in Sources */,
+				F0970F962AD7DC8000E9277D /* Selectbutton2.swift in Sources */,
+				F0970F922AD7DC0E00E9277D /* Selectbutton.swift in Sources */,
 				37A2DFE42AD5BDF1008C6540 /* FinalPage.swift in Sources */,
 				37CCE0132AD3F49600B7AE4B /* MunjezApp.swift in Sources */,
 			);
