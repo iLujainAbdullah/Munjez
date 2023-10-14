@@ -9,6 +9,8 @@ import Foundation
 import SwiftUI
 
 struct choosePets: View{
+    //for get the name of user and show on this page
+    @AppStorage("nameChild") var nameChild : String = ""
     @State private var isSelected1 = false
     @State private var isSelected2 = false
     @State private var isSelected3 = false
@@ -22,7 +24,8 @@ struct choosePets: View{
                     HStack{
                         Text("اختر رفيقك ")
                             .font(.largeTitle)
-                        Text("اهلا احمد!")
+                        //print name of user
+                        Text("اهلا ! ,\( nameChild)")
                             .font(.largeTitle)
                             .foregroundColor(Color(.munjezYellow))
                     }

@@ -11,7 +11,7 @@ import SwiftUI
 struct MunjezApp: App {
     var body: some Scene {
         WindowGroup {
-            FinalPage()
+            personalPage()
         }
     }
 }

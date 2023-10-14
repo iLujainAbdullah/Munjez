@@ -8,7 +8,8 @@
 import SwiftUI
 
 struct personalPage: View {
-    @State private var nameChild: String = ""
+    //for get the name of user and save
+    @AppStorage("nameChild") var nameChild : String = ""
     @State private var isSelected1 = false
     @State private var isSelected2 = false
     
@@ -31,7 +32,7 @@ struct personalPage: View {
                             
                         }
                         .padding()
-                        TextField( " اسمك",  text: $nameChild  )
+                             TextField( " اسمك",  text: $nameChild  )
                             .padding(.leading , 300)
                             .foregroundColor(.gray)
                             .font(.largeTitle)
@@ -99,4 +100,3 @@ struct personalPage: View {
     personalPage()
     
 }
-
