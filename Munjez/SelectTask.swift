@@ -10,6 +10,7 @@ import Foundation
 import SwiftUI
 
 struct SelectTask: View{
+    @AppStorage("nameChild") var nameChild : String = ""
     @State private var isSelected1 = false
     @State private var isSelected2 = false
     @State private var isSelected3 = false
@@ -27,9 +28,9 @@ struct SelectTask: View{
                     VStack{
                         
                         HStack{
-                            Text("ساعدنا بالتعرف عليك")
+                            Text("فلنختر مهامك ")
                                 .font(.largeTitle)
-                            Text("أهلاً ياصديقنا !")
+                            Text(" اهلا ! \( nameChild)")
                                 .foregroundColor(Color(.munjezYellow))
                                 .font(.largeTitle)
                             
@@ -42,7 +43,7 @@ struct SelectTask: View{
                                 isSelected: $isSelected1,
                                 image2: Image("eat") ,
                                 text: "تناول الطعام "
-                                , color: .accentColor)
+                                , color: .munjezChosse)
                             .onTapGesture {
                                 isSelected1.toggle()
                             }
@@ -52,7 +53,7 @@ struct SelectTask: View{
                                 isSelected: $isSelected2,
                                 image2: Image("teeth") ,
                                 text: "تفريش الاسنان "
-                                , color: .accentColor)
+                                ,color: .munjezChosse)
                             .onTapGesture {
                                 isSelected2.toggle()
                             }
@@ -61,7 +62,7 @@ struct SelectTask: View{
                                 isSelected: $isSelected3,
                                 image2: Image("sun") ,
                                 text: "الاستيقاظ مبكرا "
-                                , color: .accentColor)
+                                , color: .munjezChosse)
                             .onTapGesture {
                                 isSelected3.toggle()
                             }.padding()
@@ -82,7 +83,7 @@ struct SelectTask: View{
                                 isSelected: $isSelected4,
                                 image2: Image("sleep") ,
                                 text: "وقت النوم"
-                                , color: .accentColor)
+                                , color: .munjezChosse)
                             .onTapGesture {
                                 isSelected4.toggle()
                             }
@@ -92,7 +93,7 @@ struct SelectTask: View{
                                 isSelected: $isSelected5,
                                 image2: Image("play") ,
                                 text: "وقت اللعب"
-                                , color: .accentColor)
+                                , color: .munjezChosse)
                             .onTapGesture {
                                 isSelected5.toggle()
                                 
@@ -102,7 +103,7 @@ struct SelectTask: View{
                                 isSelected: $isSelected6,
                                 image2: Image("homework") ,
                                 text: "حل الواجبات"
-                                , color: .accentColor)
+                                , color: .munjezChosse)
                             .onTapGesture {
                                 isSelected6.toggle()
                                 

@@ -25,7 +25,7 @@ struct choosePets: View{
                         Text("اختر رفيقك ")
                             .font(.largeTitle)
                         //print name of user
-                        Text("اهلا ! ,\( nameChild)")
+                        Text(" اهلا ! \( nameChild)")
                             .font(.largeTitle)
                             .foregroundColor(Color(.munjezYellow))
                     }
@@ -77,13 +77,21 @@ struct choosePets: View{
                         
                         
                     }
-                    NavigationLink("هيا بنا!" , destination: choosePets())
+                    NavigationLink(destination: SelectTask()){
+                        Text("هيا بنا!")
                         .font(.largeTitle)
                         .frame(width: 300 , height: 100)
                         .foregroundColor(Color.white)
                         .background(Color(.munjezYellow))
                         .cornerRadius(42)
                         .padding()
+                        
+                        
+                    }
+                    
+                   
+                    .disabled(isSelected1 == false && isSelected2 == false && isSelected3 == false && isSelected4 == false)
+                    
                 }
                 
                 
