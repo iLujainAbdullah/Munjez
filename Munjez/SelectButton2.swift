@@ -16,34 +16,22 @@ struct SelectButton2: View {
     
     
     var body: some View {
-        
-       
         ZStack{
-          
-            
-            
             Rectangle()
                 .frame(width: 250,height: 250)
                 .foregroundColor(isSelected ? color : .white)
                 .cornerRadius(45)
                 .shadow(radius:10)
-        
             image2
                 .resizable()
                 .frame(width: 190 ,height: 190)
-            
         }
-        
-        
     }
-
-    
 }
 
 struct SelectButton2_Previews : PreviewProvider {
     static var previews : some View {
-
         SelectButton2(isSelected: .constant(false),  image2:Image("custom-image") ,color : .orange)
-       
-    }}
+    }
+}
 

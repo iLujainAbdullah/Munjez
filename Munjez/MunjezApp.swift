@@ -9,9 +9,10 @@ import SwiftUI
 
 @main
 struct MunjezApp: App {
+    @State var isSelected = [Bool]() //A
     var body: some Scene {
         WindowGroup {
-            personalPage()
+            tasksList()
         }
     }
 }

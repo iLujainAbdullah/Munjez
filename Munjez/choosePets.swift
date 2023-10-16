@@ -25,7 +25,7 @@ struct choosePets: View{
                         Text("اختر رفيقك ")
                             .font(.largeTitle)
                         //print name of user
-                        Text(" اهلا ! \( nameChild)")
+                        Text("اهلا \( nameChild) !")
                             .font(.largeTitle)
                             .foregroundColor(Color(.munjezYellow))
                     }
@@ -34,7 +34,7 @@ struct choosePets: View{
                     HStack{
                         
                         
-                        SelectButton2(isSelected: $isSelected1, image2: Image("cat") , color: .munjezChosse)
+                        SelectButton2(isSelected: $isSelected1, image2: Image("cat") , color: .munjezChoose)
                             .onTapGesture {
                                 isSelected1.toggle()
                                 if isSelected1{
@@ -43,8 +43,8 @@ struct choosePets: View{
                                     isSelected4 = false
                                 }
                             }
-                           .padding()
-                        SelectButton2(isSelected: $isSelected2, image2: Image("brid") , color: .munjezChosse)
+                            .padding()
+                        SelectButton2(isSelected: $isSelected2, image2: Image("brid") , color: .munjezChoose)
                             .onTapGesture {
                                 isSelected2.toggle()
                                 if isSelected2{
@@ -54,7 +54,7 @@ struct choosePets: View{
                                 }
                             }}
                     HStack{
-                        SelectButton2(isSelected: $isSelected3, image2: Image("Rabit") , color: .munjezChosse)
+                        SelectButton2(isSelected: $isSelected3, image2: Image("Rabit") , color: .munjezChoose)
                             .onTapGesture {
                                 isSelected3.toggle()
                                 if isSelected3{
@@ -63,8 +63,8 @@ struct choosePets: View{
                                     isSelected4 = false
                                 }
                             }
-                           .padding()
-                        SelectButton2(isSelected: $isSelected4, image2: Image("dog") , color: .munjezChosse)
+                            .padding()
+                        SelectButton2(isSelected: $isSelected4, image2: Image("dog") , color: .munjezChoose)
                             .onTapGesture {
                                 isSelected4.toggle()
                                 if isSelected4{
@@ -73,34 +73,19 @@ struct choosePets: View{
                                     isSelected1 = false
                                 }
                             }
-                        
-                        
-                        
                     }
-                    NavigationLink(destination: SelectTask()){
-                        Text("هيا بنا!")
+                    NavigationLink("هيا بنا!" , destination: tasksList()
                         .font(.largeTitle)
                         .frame(width: 300 , height: 100)
                         .foregroundColor(Color.white)
                         .background(Color(.munjezYellow))
                         .cornerRadius(42)
-                        .padding()
-                        
-                        
-                    }
-                    
-                   
-                    .disabled(isSelected1 == false && isSelected2 == false && isSelected3 == false && isSelected4 == false)
-                    
+                        .padding())
                 }
-                
-                
-               
             }
-           
-            
-            
-        }}}
+        }
+    }
+}
 
 
 #Preview {

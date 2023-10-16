@@ -11,6 +11,7 @@
 		37CCE0132AD3F49600B7AE4B /* MunjezApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37CCE0122AD3F49600B7AE4B /* MunjezApp.swift */; };
 		37CCE0172AD3F49700B7AE4B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37CCE0162AD3F49700B7AE4B /* Assets.xcassets */; };
 		37CCE01A2AD3F49700B7AE4B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37CCE0192AD3F49700B7AE4B /* Preview Assets.xcassets */; };
+		37E042192ADD348C00A53CC2 /* tasksList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37E042182ADD348C00A53CC2 /* tasksList.swift */; };
 		F0970F902AD7DB9800E9277D /* personalPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0970F8F2AD7DB9800E9277D /* personalPage.swift */; };
 		F0970F922AD7DC0E00E9277D /* Selectbutton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0970F912AD7DC0E00E9277D /* Selectbutton.swift */; };
 		F0970F942AD7DC5300E9277D /* choosePets.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0970F932AD7DC5300E9277D /* choosePets.swift */; };
@@ -26,6 +27,7 @@
 		37CCE0122AD3F49600B7AE4B /* MunjezApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MunjezApp.swift; sourceTree = "<group>"; };
 		37CCE0162AD3F49700B7AE4B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		37CCE0192AD3F49700B7AE4B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		37E042182ADD348C00A53CC2 /* tasksList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tasksList.swift; sourceTree = "<group>"; };
 		F0970F8F2AD7DB9800E9277D /* personalPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = personalPage.swift; sourceTree = "<group>"; };
 		F0970F912AD7DC0E00E9277D /* Selectbutton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Selectbutton.swift; sourceTree = "<group>"; };
 		F0970F932AD7DC5300E9277D /* choosePets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = choosePets.swift; sourceTree = "<group>"; };
@@ -66,14 +68,15 @@
 			isa = PBXGroup;
 			children = (
 				F0970F8F2AD7DB9800E9277D /* personalPage.swift */,
+				37E042182ADD348C00A53CC2 /* tasksList.swift */,
 				F0970F912AD7DC0E00E9277D /* Selectbutton.swift */,
 				F0970F932AD7DC5300E9277D /* choosePets.swift */,
 				F0970F952AD7DC8000E9277D /* Selectbutton2.swift */,
 				F0970F992AD7FE3A00E9277D /* SelectTask.swift */,
 				F0970F9B2AD7FE9D00E9277D /* SelectButton3.swift */,
 				37A2DFE32AD5BDF1008C6540 /* FinalPage.swift */,
-				F0E0477E2ADB0448001146A3 /* clap.mp3 */,
 				37CCE0122AD3F49600B7AE4B /* MunjezApp.swift */,
+				F0E0477E2ADB0448001146A3 /* clap.mp3 */,
 				37CCE0162AD3F49700B7AE4B /* Assets.xcassets */,
 				37CCE0182AD3F49700B7AE4B /* Preview Content */,
 			);
@@ -166,6 +169,7 @@
 				F0970F922AD7DC0E00E9277D /* Selectbutton.swift in Sources */,
 				37A2DFE42AD5BDF1008C6540 /* FinalPage.swift in Sources */,
 				F0970F9A2AD7FE3A00E9277D /* SelectTask.swift in Sources */,
+				37E042192ADD348C00A53CC2 /* tasksList.swift in Sources */,
 				37CCE0132AD3F49600B7AE4B /* MunjezApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
