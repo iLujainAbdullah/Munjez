@@ -10,6 +10,7 @@ import SwiftUI
 import AVKit
 
 struct FinalPage: View {
+    @AppStorage("nameChild") var nameChild: String = ""
     @State private var scale = 1.0
     @State var audioPlayer: AVAudioPlayer!
     
@@ -18,7 +19,7 @@ struct FinalPage: View {
            
             Color(.munjezBack).edgesIgnoringSafeArea(.all)
             VStack{
-                Text("مبارك يا أحمد ").font(.largeTitle).bold().frame(maxWidth: /*@START_MENU_TOKEN@*/.infinity/*@END_MENU_TOKEN@*/, alignment: .center).foregroundColor(.munjezYellow)
+                Text("مبارك يا سعد").font(.largeTitle).bold().frame(maxWidth: /*@START_MENU_TOKEN@*/.infinity/*@END_MENU_TOKEN@*/, alignment: .center).foregroundColor(.munjezYellow)
                     .padding(.vertical, -320)
                 Text("لقد كان أسبوعًا حافلًا بالإنجاز!").font(/*@START_MENU_TOKEN@*/.title/*@END_MENU_TOKEN@*/).bold().frame(maxWidth: /*@START_MENU_TOKEN@*/.infinity/*@END_MENU_TOKEN@*/, alignment: .center).foregroundColor(.munjezBlue)
                     .padding(.vertical, -280)

@@ -12,8 +12,6 @@ struct SelectButton2: View {
     @Binding var isSelected : Bool
     @State  var image2 :Image
     @State var color :Color
-  
-    
     
     var body: some View {
         ZStack{

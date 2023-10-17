@@ -12,7 +12,9 @@ struct MunjezApp: App {
     @State var isSelected = [Bool]() //A
     var body: some Scene {
         WindowGroup {
-            tasksList()
+         //   tasksList()
+       personalPage()
+     //   FinalPage()
         }
     }
 }
