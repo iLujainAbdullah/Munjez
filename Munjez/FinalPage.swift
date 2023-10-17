@@ -16,12 +16,11 @@ struct FinalPage: View {
     
     var body: some View {
         ZStack {
-           
             Color(.munjezBack).edgesIgnoringSafeArea(.all)
             VStack{
-                Text("مبارك يا سعد").font(.largeTitle).bold().frame(maxWidth: /*@START_MENU_TOKEN@*/.infinity/*@END_MENU_TOKEN@*/, alignment: .center).foregroundColor(.munjezYellow)
+                Text("مبارك يا \( nameChild) !").font(.largeTitle).bold().frame(maxWidth: /*@START_MENU_TOKEN@*/.infinity/*@END_MENU_TOKEN@*/, alignment: .center).foregroundColor(.munjezYellow)
                     .padding(.vertical, -320)
-                Text("لقد كان أسبوعًا حافلًا بالإنجاز!").font(/*@START_MENU_TOKEN@*/.title/*@END_MENU_TOKEN@*/).bold().frame(maxWidth: /*@START_MENU_TOKEN@*/.infinity/*@END_MENU_TOKEN@*/, alignment: .center).foregroundColor(.munjezBlue)
+                Text("لقد كان يومًا حافلًا بالإنجاز!").font(/*@START_MENU_TOKEN@*/.title/*@END_MENU_TOKEN@*/).bold().frame(maxWidth: /*@START_MENU_TOKEN@*/.infinity/*@END_MENU_TOKEN@*/, alignment: .center).foregroundColor(.munjezBlue)
                     .padding(.vertical, -280)
             }
              Spacer()

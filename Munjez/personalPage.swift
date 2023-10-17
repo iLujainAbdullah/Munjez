@@ -41,8 +41,8 @@ struct personalPage: View {
                                 if isSelected1{
                                     isSelected2 = false
                                 }
-                            }
-                        SelectButton(isSelected: $isSelected2,image1: Image("boy") ,color: (Color.munjezChoose))
+                            }.padding(.horizontal, -20)
+                        SelectButton(isSelected: $isSelected2,image1: Image("boy") ,color: (Color.munjezChoose)).padding(.horizontal, -20)
                             .onTapGesture {
                                 isSelected2.toggle()
                                 if isSelected2{
@@ -52,14 +52,17 @@ struct personalPage: View {
                     }
                     .padding(.top , 30)
                     
-                    
-                    NavigationLink("هيا بنا!" , destination: choosePets())
-                        .font(.largeTitle)
-                        .frame(width: 300 , height: 100)
-                        .foregroundColor(Color.white)
-                        .background(Color(.munjezYellow))
-                        .cornerRadius(42)
-                        .padding()
+                    NavigationLink(destination : choosePets()){
+                        Text("هيا بنا!")
+                            .font(.largeTitle)
+                            .frame(width: 300 , height: 100)
+                            .foregroundColor(Color.white)
+                            .background(Color(.munjezYellow))
+                            .cornerRadius(42)
+                            .padding()
+                    }.disabled(nameChild.isEmpty)
+                        .disabled(isSelected1 == false
+                                  && isSelected2 == false)
                 }
             }
         }

@@ -12,8 +12,9 @@ struct SelectTask: View {
     let images: [String] = ["sun", "tooth", "meal", "book", "play", "sleep"]
     let descriptions: [String] = ["الاستيقاظ مبكرًا", "تفريش الأسنان", "تناول الوجبات", "حل الواجبات", "وقت اللعب", "النوم مبكرًا"]
     
+    @State  private var isDone = false; 
+    
     var body: some View {
-        NavigationStack {
             ZStack {
                 Color(.munjezBack).edgesIgnoringSafeArea(.all)
                 VStack { // Use a VStack for vertical stacking
@@ -40,19 +41,18 @@ struct SelectTask: View {
                                     )
                                     .onTapGesture {
                                         isSelected[index].toggle()
-                                        isSelected[index] = false
-                                        print(isSelected[index])
-                                        print(isSelected.contains(true) ,"dddddddd")
+                                        if (!isSelected.contains(true)){
+                                            isDone = true
+                                        }
                                     }
                                     .padding(.horizontal, 10)
                                 }
                             }
                         }
                     }
-                   
-                        
-                }
-            }
+                } .fullScreenCover(isPresented: $isDone, content:{
+                    FinalPage()
+                }) 
         }
     }
 }

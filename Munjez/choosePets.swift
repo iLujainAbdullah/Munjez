@@ -29,11 +29,7 @@ struct choosePets: View{
                             .font(.largeTitle)
                             .foregroundColor(Color(.munjezYellow))
                     }
-                    
-                    
                     HStack{
-                        
-                        
                         SelectButton2(isSelected: $isSelected1, image2: Image("cat") , color: .munjezChoose)
                             .onTapGesture {
                                 isSelected1.toggle()
@@ -52,7 +48,8 @@ struct choosePets: View{
                                     isSelected3 = false
                                     isSelected4 = false
                                 }
-                            }}
+                            }
+                    }
                     HStack{
                         SelectButton2(isSelected: $isSelected3, image2: Image("Rabit") , color: .munjezChoose)
                             .onTapGesture {
@@ -74,13 +71,18 @@ struct choosePets: View{
                                 }
                             }
                     }
-                    NavigationLink("هيا بنا!", destination: tasksList())
-                        .font(.largeTitle)
-                        .frame(width: 300, height: 100)
-                        .foregroundColor(Color.white)
-                        .background(Color(.munjezYellow))
-                        .cornerRadius(42)
-                        .padding(.vertical, 13)
+                    NavigationLink(destination : tasksList()){
+                        Text("هيا بنا!")
+                            .font(.largeTitle)
+                            .frame(width: 300 , height: 100)
+                            .foregroundColor(Color.white)
+                            .background(Color(.munjezYellow))
+                            .cornerRadius(42)
+                            .padding()
+                    } .disabled(isSelected1 == false && isSelected2 == false && isSelected3 == false && isSelected4 == false)
+                    
+                    
+                    
                 }
             }
         }

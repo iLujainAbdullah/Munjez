@@ -38,19 +38,20 @@ struct tasksList: View {
                                 )
                                 .onTapGesture {
                                     isSelected[index].toggle()
-                                    print(isSelected[index])
                                 }
                                 .padding(.horizontal, 10)
                             }
                         }
                     }
-                    NavigationLink("هيا بنا!", destination: SelectTask(isSelected: $isSelected))
-                        .font(.largeTitle)
-                        .frame(width: 300, height: 100)
-                        .foregroundColor(Color.white)
-                        .background(Color(.munjezYellow))
-                        .cornerRadius(42)
-                        .padding(.vertical, 13)
+                    NavigationLink(destination: SelectTask(isSelected: $isSelected)){
+                        Text("هيا بنا!")
+                            .font(.largeTitle)
+                            .frame(width: 300, height: 100)
+                            .foregroundColor(Color.white)
+                            .background(Color(.munjezYellow))
+                            .cornerRadius(42)
+                            .padding(.vertical, 13)
+                    }.disabled(!isSelected[0] && !isSelected[1] && !isSelected[2] && !isSelected[3] && !isSelected[4] && !isSelected[5])
                 }
             }
         }
