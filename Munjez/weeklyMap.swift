@@ -16,7 +16,7 @@ struct ContentView: View {
                 .edgesIgnoringSafeArea(.all)
             
             VStack{
-                Image("map2")
+                Image("map")
                     .resizable()
                     .scaledToFit()
                     .frame(width: 1300, height: 1300)
