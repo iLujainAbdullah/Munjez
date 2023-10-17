@@ -23,7 +23,7 @@ struct personalPage: View {
                             .font(.largeTitle).foregroundColor(Color(.munjezBlue))
                         Text("أهلاً يا صديقنا !")
                             .foregroundColor(Color(.munjezYellow))
-                            .font(.largeTitle)
+                            .font(.largeTitle).bold()
                     }
                     .padding()
                     TextField( " اسمك",  text: $nameChild)

@@ -15,7 +15,6 @@ struct mImage: View {
             .resizable()
             .frame(width: 100, height: 100)
             .clipShape(Circle())
-            .overlay(Circle().stroke(Color.munjezCircle, lineWidth:5))
             .padding(-370)
             .padding(.leading,70)
     }

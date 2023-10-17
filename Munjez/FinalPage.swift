@@ -23,9 +23,9 @@ struct FinalPage: View {
                 Text("لقد كان يومًا حافلًا بالإنجاز!").font(/*@START_MENU_TOKEN@*/.title/*@END_MENU_TOKEN@*/).bold().frame(maxWidth: /*@START_MENU_TOKEN@*/.infinity/*@END_MENU_TOKEN@*/, alignment: .center).foregroundColor(.munjezBlue)
                     .padding(.vertical, -280)
             }
-             Spacer()
-             Spacer()
-           
+            Spacer()
+            Spacer()
+            
             Image("fires")
                 .resizable()
                 .frame(width: 400, height: 500)
@@ -38,9 +38,9 @@ struct FinalPage: View {
                 .animation(.spring(response: 0.7, dampingFraction: 0.1), value: scale)
             
             Image("celeberation").resizable().frame(width: 700, height: 700)
-                            }
         }
     }
+}
 
 var player: AVAudioPlayer?
 

@@ -10,8 +10,8 @@ struct tasksList: View {
     @AppStorage("nameChild") var nameChild: String = ""
     @State var isSelected = Array(repeating: false, count: 6)
     
-    let images: [String] = ["sun", "tooth", "meal", "book", "play", "sleep"]
-    let descriptions: [String] = ["الاستيقاظ مبكرًا", "تفريش الأسنان", "تناول الوجبات", "حل الواجبات", "وقت اللعب", "النوم مبكرًا"]
+    let images: [String] = ["meal", "tooth", "sun", "sleep", "play", "book"]
+    let descriptions: [String] = ["تناول الوجبات", "تفريش الأسنان", "الاستيقاظ مبكرا", "النوم مبكرا", "وقت اللعب", "حل الواجبات"]
     
     var body: some View {
         NavigationStack {
