@@ -13,14 +13,14 @@ struct weeklyMap: View {
     @State private var showTasksList = false // State variable to control the navigation
     
     var body: some View {
-        NavigationView { // Add NavigationView here
+      //  NavigationView { // Add NavigationView here
             ZStack {
                 Color(.munjezBack)
                     .edgesIgnoringSafeArea(.all)
                 VStack {
-                    NavigationLink(destination: tasksList(), isActive: $showTasksList) {
-                        EmptyView()
-                    }
+                  //  NavigationLink(destination: tasksList(), isActive: $showTasksList) {
+                   //     EmptyView()
+                 //   }
                     Image("map")
                         .resizable()
                         .scaledToFit()
@@ -56,7 +56,7 @@ struct weeklyMap: View {
             .onAppear(perform: {
                 delayShowFinalPage()
             })
-        }
+      //  }
     }
     
     func delayShowFinalPage() {

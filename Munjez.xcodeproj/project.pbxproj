@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3775730E2ADEF7BF00BED241 /* EndDay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3775730D2ADEF7BF00BED241 /* EndDay.swift */; };
 		37A2DFE42AD5BDF1008C6540 /* FinalPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A2DFE32AD5BDF1008C6540 /* FinalPage.swift */; };
 		37CCE0132AD3F49600B7AE4B /* MunjezApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37CCE0122AD3F49600B7AE4B /* MunjezApp.swift */; };
 		37CCE0172AD3F49700B7AE4B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37CCE0162AD3F49700B7AE4B /* Assets.xcassets */; };
@@ -25,6 +26,7 @@
 
 /* Begin PBXFileReference section */
 		3775730C2ADE88E900BED241 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		3775730D2ADEF7BF00BED241 /* EndDay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndDay.swift; sourceTree = "<group>"; };
 		37A2DFE32AD5BDF1008C6540 /* FinalPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalPage.swift; sourceTree = "<group>"; };
 		37CCE00F2AD3F49600B7AE4B /* Munjez.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Munjez.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		37CCE0122AD3F49600B7AE4B /* MunjezApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MunjezApp.swift; sourceTree = "<group>"; };
@@ -75,6 +77,7 @@
 				3775730C2ADE88E900BED241 /* Info.plist */,
 				F0970F8F2AD7DB9800E9277D /* personalPage.swift */,
 				37E042182ADD348C00A53CC2 /* tasksList.swift */,
+				3775730D2ADEF7BF00BED241 /* EndDay.swift */,
 				F0970F912AD7DC0E00E9277D /* Selectbutton.swift */,
 				4BCEE4D02ADE74E30086FBB5 /* mImage.swift */,
 				F0970F932AD7DC5300E9277D /* choosePets.swift */,
@@ -170,6 +173,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3775730E2ADEF7BF00BED241 /* EndDay.swift in Sources */,
 				F0970F942AD7DC5300E9277D /* choosePets.swift in Sources */,
 				F0970F902AD7DB9800E9277D /* personalPage.swift in Sources */,
 				F0970F9C2AD7FE9D00E9277D /* SelectButton3.swift in Sources */,
