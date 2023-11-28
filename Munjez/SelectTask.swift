@@ -45,10 +45,7 @@ struct SelectTask: View {
                                     isSelected[index].toggle()
                                     if (!isSelected.contains(true)){
                                         isDone = true
-                                        days += 1
-                                        if days > 7{
-                                            days = 0
-                                        }
+                                        days += 1 
                                     }
                                 }
                                 .padding(.horizontal, 10)

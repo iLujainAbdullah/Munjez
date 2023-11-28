@@ -49,6 +49,11 @@ struct weeklyMap: View {
                     FinalPage()
                         .onAppear {
                             delayDismissFinalPage()
+                            if (days == 7){
+                                days = 0
+                                    //newWeek()
+                                
+                            }
                         }
                 })
                 .padding()
