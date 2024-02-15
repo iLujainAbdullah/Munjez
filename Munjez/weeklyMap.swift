@@ -51,7 +51,7 @@ struct weeklyMap: View {
                             delayDismissFinalPage()
                             if (days == 7){
                                 days = 0
-                                    //newWeek()
+                                    newWeek()
                                 
                             }
                         }

@@ -16,13 +16,13 @@
 		4BCEE4CF2ADE74720086FBB5 /* weeklyMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BCEE4CE2ADE74720086FBB5 /* weeklyMap.swift */; };
 		4BCEE4D12ADE74E30086FBB5 /* mImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BCEE4D02ADE74E30086FBB5 /* mImage.swift */; };
 		A313852F2B149F070032DB79 /* newWeek.swift in Sources */ = {isa = PBXBuildFile; fileRef = A313852E2B149F070032DB79 /* newWeek.swift */; };
+		A48F2EEB2B15EA36008CC6C0 /* clap.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A48F2EEA2B15EA36008CC6C0 /* clap.mp3 */; };
 		F0970F902AD7DB9800E9277D /* personalPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0970F8F2AD7DB9800E9277D /* personalPage.swift */; };
 		F0970F922AD7DC0E00E9277D /* Selectbutton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0970F912AD7DC0E00E9277D /* Selectbutton.swift */; };
 		F0970F942AD7DC5300E9277D /* choosePets.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0970F932AD7DC5300E9277D /* choosePets.swift */; };
 		F0970F962AD7DC8000E9277D /* Selectbutton2.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0970F952AD7DC8000E9277D /* Selectbutton2.swift */; };
 		F0970F9A2AD7FE3A00E9277D /* SelectTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0970F992AD7FE3A00E9277D /* SelectTask.swift */; };
 		F0970F9C2AD7FE9D00E9277D /* SelectButton3.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0970F9B2AD7FE9D00E9277D /* SelectButton3.swift */; };
-		F0E0477F2ADB0448001146A3 /* clap.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F0E0477E2ADB0448001146A3 /* clap.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,13 +37,13 @@
 		4BCEE4CE2ADE74720086FBB5 /* weeklyMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = weeklyMap.swift; sourceTree = "<group>"; };
 		4BCEE4D02ADE74E30086FBB5 /* mImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mImage.swift; sourceTree = "<group>"; };
 		A313852E2B149F070032DB79 /* newWeek.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = newWeek.swift; sourceTree = "<group>"; };
+		A48F2EEA2B15EA36008CC6C0 /* clap.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = clap.mp3; path = "../../../../Downloads/challenge One/Munjez/Munjez/clap.mp3"; sourceTree = "<group>"; };
 		F0970F8F2AD7DB9800E9277D /* personalPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = personalPage.swift; sourceTree = "<group>"; };
 		F0970F912AD7DC0E00E9277D /* Selectbutton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Selectbutton.swift; sourceTree = "<group>"; };
 		F0970F932AD7DC5300E9277D /* choosePets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = choosePets.swift; sourceTree = "<group>"; };
 		F0970F952AD7DC8000E9277D /* Selectbutton2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Selectbutton2.swift; sourceTree = "<group>"; };
 		F0970F992AD7FE3A00E9277D /* SelectTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectTask.swift; sourceTree = "<group>"; };
 		F0970F9B2AD7FE9D00E9277D /* SelectButton3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectButton3.swift; sourceTree = "<group>"; };
-		F0E0477E2ADB0448001146A3 /* clap.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = clap.mp3; path = ../../../Downloads/clap.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,10 +87,10 @@
 				F0970F952AD7DC8000E9277D /* Selectbutton2.swift */,
 				F0970F992AD7FE3A00E9277D /* SelectTask.swift */,
 				4BCEE4CE2ADE74720086FBB5 /* weeklyMap.swift */,
+				A48F2EEA2B15EA36008CC6C0 /* clap.mp3 */,
 				F0970F9B2AD7FE9D00E9277D /* SelectButton3.swift */,
 				37A2DFE32AD5BDF1008C6540 /* FinalPage.swift */,
 				37CCE0122AD3F49600B7AE4B /* MunjezApp.swift */,
-				F0E0477E2ADB0448001146A3 /* clap.mp3 */,
 				37CCE0162AD3F49700B7AE4B /* Assets.xcassets */,
 				37CCE0182AD3F49700B7AE4B /* Preview Content */,
 			);
@@ -164,7 +164,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				37CCE01A2AD3F49700B7AE4B /* Preview Assets.xcassets in Resources */,
-				F0E0477F2ADB0448001146A3 /* clap.mp3 in Resources */,
+				A48F2EEB2B15EA36008CC6C0 /* clap.mp3 in Resources */,
 				37CCE0172AD3F49700B7AE4B /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -319,24 +319,29 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Munjez/Preview Content\"";
-				DEVELOPMENT_TEAM = 6PGA99688G;
+				DEVELOPMENT_TEAM = TGL4K2UHX6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Munjez/Info.plist;
-				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_CFBundleDisplayName = "منجز";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationLandscapeLeft;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "lujain.abh-gmail.com";
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Amal.Munjez;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -348,24 +353,29 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Munjez/Preview Content\"";
-				DEVELOPMENT_TEAM = 6PGA99688G;
+				DEVELOPMENT_TEAM = TGL4K2UHX6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Munjez/Info.plist;
-				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_CFBundleDisplayName = "منجز";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationLandscapeLeft;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "lujain.abh-gmail.com";
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Amal.Munjez;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
